@@ -15,5 +15,6 @@
   },
   "idPhotoCardDir": "/opt/lamassu-server/idphotocard",
   "frontCameraDir": "/opt/lamassu-server/frontcamera",
-  "operatorDataDir": "/opt/lamassu-server/operatordata"
+  "operatorDataDir": "/opt/lamassu-server/operatordata",
+  "atmhostname": "https://atm.legenddigital.co"
 }

@@ -170,6 +170,7 @@ const MachineNameComponent = ({ nextStep, classes, setQrCode, setName }) => {
         validate={uniqueNameValidator}
         onSubmit={({ name }) => {
           setName(name)
+          console.log(name)
           register({ variables: { name } })
         }}>
         {({ errors }) => (
